@@ -82,11 +82,11 @@ ul li:hover {
 
 .table-box {
     background: #fff;
-    width: 300px;
+    width: auto;
     height: 300px;
     margin-top: 80px;
-    margin-left: auto;
-    margin-right: auto;    
+    margin-left: 50px;
+    margin-right: 50px;    
     border: 5px solid;
     box-sizing: center;
     border-radius: 20px;
@@ -95,6 +95,7 @@ ul li:hover {
 
 .table-box-scoll {
     overflow: auto;
+    flex-direction: column;
 }
 
 @media screen and (min-width: 800px) {
