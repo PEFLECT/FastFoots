@@ -36,10 +36,10 @@ div {
 
 .image {
     position: absolute;
-    top: -5rem;
-    right: -3rem;
-    width: 120px;
-    height: 120px;
+    top: -2rem;
+    right: -1rem;
+    width: 80px;
+    height: 80px;
 }
 
 ul {
@@ -84,7 +84,9 @@ ul li:hover {
     background: #fff;
     width: 300px;
     height: 300px;
-    margin: 80px 20px 80px 20px;
+    margin-top: 80px;
+    margin-left: auto;
+    margin-right: auto;    
     border: 5px solid;
     box-sizing: center;
     border-radius: 20px;
@@ -127,14 +129,25 @@ ul li:hover {
         display: none;
     }
 
+    .image {
+        position: absolute;
+        top: -5rem;
+        right: -3rem;
+        width: 120px;
+        height: 120px;
+    }
+ 
     .table-box {
         background: #fff;
-        white: 100px;
-        height: 250px;
-        margin: 100px;
+        width: 600px;
+        height: 300px;
+        margin-top: 80px;
+        margin-left: auto;
+        margin-right: auto;
         border: 5px solid;
         box-sizing: center;
         border-radius: 20px;
         position: relative;
+        display: flex;
     }
 }
